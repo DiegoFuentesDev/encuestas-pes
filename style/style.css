@@ -42,15 +42,16 @@ rgba(148,187,233,0.6301075268817204) 100%);
   text-align: center;
   background: #8697cf;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
 }
 
 .header a {
   text-decoration: none;
   color: white;
-  font-size: 15pt;
+  font-size: 22pt;
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -93,16 +94,9 @@ rgba(148,187,233,0.6301075268817204) 100%);
 }
 /* aqui para lo inservible, no borrar */
 
-.contenedor {
-  /* margin-bottom: 15px;
-  width: 70%;
-  margin: 0 auto; */
-  /* background-color: rgba(33, 19, 161, 0.185); */
-  /* border-radius: 10px; */
-}
 
 .aviso-priv {
-  width: 30%;
+  /* width: 30%; */
   padding: 7.5px;
   border-radius: 10px;
   /* border: 0; */
@@ -110,6 +104,16 @@ rgba(148,187,233,0.6301075268817204) 100%);
   text-transform: uppercase;
   cursor:pointer;
   z-index:unset;
+}
+
+#linkon {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+#inicio {
+  background-color: white;
 }
 
 .aviso-priv:hover {
