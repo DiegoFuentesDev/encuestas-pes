@@ -9,9 +9,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
-  background: rgb(174,238,188);
-  background: radial-gradient(circle, rgba(174,238,188,0.7612903225806451) 0%, 
-rgba(148,187,233,0.6301075268817204) 100%);
   /* text-align: justify; */
   /* background-color: ; */
 }
@@ -134,12 +131,28 @@ article {
 
 }
 
-.saludsex, .consumsust, .saludpsico, .saludfisica {
-  background-color: rgba(105, 41, 223, 0.18);
+.saludsex, .saludpsico, .saludfisica, .consumsust {
+  /* background-color: rgba(105, 41, 223, 0.18); */
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 10px;
+}
+
+.consumsust {
+  background-color: rgb(150, 212, 233);
+}
+
+.saludpsico {
+  background-color: rgba(243, 101, 101, 0.753);
+}
+
+.saludfisica {
+  background-color: rgba(255, 239, 99, 0.774);
+}
+
+.saludsex {
+  background-color: lightgray;
 }
 
 #legenda {
